@@ -1,0 +1,51 @@
+
+.styleImage {
+    height: 100%;
+  }
+  
+  .divBack {
+    width: 100vw;
+    height: auto;
+    display: run-in;
+    overflow: hidden;
+    position: fixed;
+  }
+  
+  .divVacio {
+    width: 100vw;
+    height: 15vh;
+    margin: 10px;
+    padding: 0 0 5rem 0;
+  }
+  
+  .divCards {
+    width: auto;
+    height: 70vh;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2vw;
+  }
+  
+  .divCards::-webkit-scrollbar {
+    width: 10px;
+    height: 100%;
+  }
+  
+  .divCards::-webkit-scrollbar-button {
+    width: 10px;
+    height: 6px;  
+  }
+  
+  .divCards::-webkit-scrollbar-thumb {
+    background: rgb(68, 221, 68);
+    border: 2px solid rgb(162, 232, 22);
+    border-radius: 100%;
+  }
+  
+  .divCards:hover::-webkit-scrollbar-thumb {
+   background:transparent 50%;
+  }
+  

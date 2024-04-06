@@ -1,0 +1,49 @@
+.div {
+    width: 40vw;
+    height: 8vh;
+    margin-right: 1rem;
+    background-color: rgb(43, 39, 39);
+    opacity: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input {
+    width: 60%;
+    height: 50%;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0 0 0 1rem;
+}
+
+.styleButton {
+    width: 7vw;
+    height: 4vh;
+    border-radius: 0.3rem;
+    background-color: rgb(162, 232, 22);
+    border: none;
+    cursor: pointer;
+}
+
+.styleButton:hover {
+    width: 7vw;
+    background-color: rgb(68, 221, 68);
+    transition: 0.4s;
+}
+
+.styleRandomButton {
+    font-size: 1.5vh;
+    width: 4vw;
+    height: 2vh;
+    border-radius: 0.3rem;
+    background-color: rgb(162, 232, 22);
+    border: none;
+    cursor: pointer;
+}
+
+.styleRandomButton:hover {
+    width: 4vw;
+    background-color: rgb(68, 221, 68);
+    transition: 0.4s;
+}
